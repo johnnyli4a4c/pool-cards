@@ -72,8 +72,9 @@ module.exports = function(grunt) {
         script: 'server.js',
         options: {
           args: [],
-          ignore: ['node_modules/**'],
-          ext: 'js,html',
+          livereload: 1,
+          ignore: ['*.html', 'public/system/**', 'public/auth/**', 'test/coverage/**', 'node_modules/**'],
+          ext: 'js,html,css',
           nodeArgs: ['--debug'],
           delayTime: 1,
           cwd: __dirname
