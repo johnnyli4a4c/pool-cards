@@ -1,0 +1,14 @@
+.heading-last-name, .heading-first-name {
+	font-family: arial, sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.heading-first-name {
+	color: #000;
+	font-size: 40px;
+}
+
+.heading-last-name {
+	font-size: 30px;
+}
