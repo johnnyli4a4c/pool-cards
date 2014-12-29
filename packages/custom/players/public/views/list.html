@@ -2,7 +2,7 @@
   <ul class="players unstyled">
     <li class="unstyled" data-ng-repeat="player in players">
       <h2>
-        <a data-ng-href="#!/players/{{player._id}}">{{player.first_name}} {{player.last_name}}</a>
+        <a data-ng-href="#!/players/{{player._id}}">{{player.rating}} {{player.first_name}} {{player.last_name}}</a>
         <span data-ng-if="hasAuthorization(article)">
           <a class="btn" href="/#!/articles/{{article._id}}/edit">
             <i class="glyphicon glyphicon-edit"></i>
