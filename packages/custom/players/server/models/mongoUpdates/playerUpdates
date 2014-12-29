@@ -1,0 +1,95 @@
+db.players.update(
+	{
+		first_name: "Gary"
+	},
+	{
+		"first_name" : "Gary",
+		"last_name" : "Lin",
+		"nation" : "china",
+		"school" : "toronto", 
+		"rating": 82,
+		"accuracy": 83,
+		"shooting": 82,
+		"consistency": 70,
+		"spin": 81,
+		"power": 79,
+		"skill": 80,
+	}
+)
+
+db.players.update(
+	{
+		"first_name": "Johnny"
+	},
+	{
+		"first_name" : "Johnny",
+		"last_name" : "Li",
+		"nation" : "canada",
+		"school" : "waterloo",
+		"rating": 81,
+		"accuracy": 77,
+		"shooting": 81,
+		"consistency": 75,
+		"spin": 78,
+		"power": 78,
+		"skill": 83
+	}
+)
+
+db.players.update(
+	{
+		first_name:"Jackson"
+	},
+	{
+		"first_name" : "Jackson",
+		"last_name" : "Leung",
+		"nation" : "canada",
+		"school" : "waterloo",
+		"rating": 82,
+		"accuracy": 86,
+		"shooting": 85,
+		"consistency": 82,
+		"spin": 69,
+		"power": 75,
+		"skill": 75,
+	}
+)
+
+db.players.update(
+	{
+		first_name:"Anthony"
+	},
+	{
+		"first_name" : "Anthony",
+		"last_name" : "Ma",
+		"school" : "waterloo",
+		"nation" : "china",
+		"rating": 85,
+		"accuracy": 86,
+		"shooting": 89,
+		"consistency": 75,
+		"spin": 82,
+		"power": 80,
+		"skill": 86,
+	}
+)
+
+db.players.update(
+	{
+		first_name: "Jonathan"
+	},
+	{
+		"first_name" : "Jonathan",
+		"last_name" : "Ng",
+		"school" : "york",
+		"nation" : "canada",
+		"rating": 80,
+		"accuracy": 79,
+		"shooting": 82,
+		"consistency": 75,
+		"spin": 67,
+		"power": 80,
+		"skill": 72,
+	}
+)
+
